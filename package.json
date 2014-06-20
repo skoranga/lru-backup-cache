@@ -1,0 +1,29 @@
+{
+  "name": "lru-backup-cache",
+  "version": "0.0.1",
+  "description": "lru-backup-cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "homepage": "https://github.com/skoranga/lru-backup-cache",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:skoranga/lru-backup-cache.git"
+  },
+  "keywords": [
+    "lru cache",
+    "nodejs"
+  ],
+  "author": "Sanjeev Koranga",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "debug" : "~0.7",
+    "lru-cache": "~2.5.0"
+  },
+  "devDependencies": {
+    "mocha" : "~1",
+    "jshint" : "*"
+  }
+}
