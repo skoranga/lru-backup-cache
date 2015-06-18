@@ -1,6 +1,6 @@
 {
   "name": "lru-backup-cache",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "lru-backup-cache",
   "main": "index.js",
   "scripts": {
@@ -20,10 +20,10 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "debug" : "~0.7",
-    "lru-cache": "~2.5.0"
+    "lru-cache": "~2.6.0"
   },
   "devDependencies": {
-    "mocha" : "~1",
-    "jshint" : "*"
+    "mocha" : "^2",
+    "jshint" : "^2"
   }
 }
