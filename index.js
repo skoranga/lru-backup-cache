@@ -1,1 +1,3 @@
-exports = module.exports = require('./lib/cache');
+'use strict';
+
+module.exports = require('./lib/cache');
